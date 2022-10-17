@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32407.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Springs", "Springs.csproj", "{61685738-2A01-4263-B423-918563A05140}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61685738-2A01-4263-B423-918563A05140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61685738-2A01-4263-B423-918563A05140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61685738-2A01-4263-B423-918563A05140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61685738-2A01-4263-B423-918563A05140}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2807A0C3-05A1-47E8-9092-207FF435F989}
+	EndGlobalSection
+EndGlobal
