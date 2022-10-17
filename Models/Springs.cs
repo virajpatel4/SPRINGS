@@ -1,11 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
-namespace Springs.Models
+
+namespace MvcSprings.Models
 {
-    public class Springs
+    public class Spring
     {
         public int Id { get; set; }
 

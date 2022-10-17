@@ -1,11 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text.Encodings.Web;
-using System.Threading.Tasks;
 
-namespace Springs.Controllers
+namespace MvcSprings.Controllers
 {
     public class HelloWorldController : Controller
     {
@@ -13,10 +9,7 @@ namespace Springs.Controllers
         {
             return View();
         }
-        /* public string Index()
-         {
-             return "This is my default action...";
-         }*/
+
         public IActionResult Welcome(string name, int numTimes = 1)
         {
             ViewData["Message"] = "Hello " + name;
@@ -24,6 +17,5 @@ namespace Springs.Controllers
 
             return View();
         }
-
     }
 }

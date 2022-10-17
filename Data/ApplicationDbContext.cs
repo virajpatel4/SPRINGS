@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using MvcSprings.Models;
 
 namespace Springs.Data
 {
@@ -12,5 +13,6 @@ namespace Springs.Data
             : base(options)
         {
         }
+        public DbSet<MvcSprings.Models.Spring> Spring { get; set; }
     }
 }
